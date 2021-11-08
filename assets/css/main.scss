@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--orange: #f18f01;
+	--red: #ff0035;
+	--blue: #1da1f2;
+	--black: #14171a;
+	--dark-gray: #657786;
+	--light-gray: #aab8c2;
+	--x-gray: #e1e8ed;
+	--xx-gray: #f5f8fa;
+	--white: #fff;
+}
+
+body {
+	background-color: var(--x-gray);
+}
+
+a {
+	color: var(--black);
+	&:hover {
+		text-decoration: underline;
+		color: var(--blue);
+	}
+}
